@@ -1,0 +1,57 @@
+.settingsContainer {
+    border: 2px solid #33ccd2;
+    border-radius: 5%;
+    height: 20%;
+    width: 17%;
+    padding: 20px 50px 50px 50px;
+    margin: 20px;
+}
+
+.settingsText {
+    font-size: 24px;
+    /*border-radius: 7%;*/
+    /*border: 2px solid;*/
+    /*color: white;*/
+    /*background-color: #33ccd2;*/
+    color: white;
+    width: 100%;
+}
+span{
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1px 6px;
+}
+input{
+    background-color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px;
+}
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20%;
+    width: 90%;
+    border: 3px solid;
+    margin: 10px 1%;
+    padding: 10px 10px;
+    border-radius: 2%;
+    background-color: #33ccd2;
+}
+
+.buttonContainer button {
+    /*background-color: #33ccd2;*/
+    /*border-radius: 15px;*/
+    background-color: #27bea4; /* Green */
+    color: white;
+    padding: 10px 22px;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: rgb(245 26 81 / 35%) 0px 4px 18px, rgb(255 255 255 / 30%) 0px 1px 0px inset;;
+}
+
